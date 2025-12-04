@@ -5,11 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "inspect-ai>=0.3.151",
+    "gql<4",
+    "inspect-ai==0.3.143",
     "inspect-evals>=0.3.102",
     "ipywidgets>=8.1.8",
+    "nbformat>=5.10.4",
     "openai>=2.8.1",
-    "vllm>=0.11.0",
+    "wandb==0.23.0",
+    "weave>=0.52.20",
 ]
 
 [tool.uv]
