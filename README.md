@@ -1,4 +1,8 @@
 # ResearchRepo
 A general repository to hold all my research, especially around LLMs.
 
+General advice:
+
+For viewing files in the .eval format, using the Inspect-VSCode extension on VSCode seems quite low-friction.
+
 Some parts of this repo (especially if data generation and training is concerned) are inspired by work done in 2024-2025 in collaboration with Miles Tidmarsh and Jasmine Brazilek. Precise credit attributions, if any are needed, will be given in the particular subfolders and subfiles.
