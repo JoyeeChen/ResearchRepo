@@ -2,6 +2,10 @@
 
 Note: "Tips and Code" shall refer to https://www.alignmentforum.org/posts/6P8GYb4AjtPXx6LLB/tips-and-code-for-empirical-research-workflows and "Apollo" shall refer to Apollo Research's Engineering Guide at https://docs.google.com/document/d/1LJedFJKrGs7vi-xA1ucQQxj_y85Z9x4lEmf4sFgeX6g/edit?tab=t.0
 
+Q: (from 15 Dec 2025): Why eventually leave this research repo to possibly focus on only methods and classes, while putting new scripts to be run in separate github repos altogether (one repo for each overall project)? And just have each project repo use the tools in ResearchRepo via importing?
+
+A: Two main reasons as of 15 Dec: first practical, second professional. Practically, I found it really quite hard importing a method I want used from src/eval_of_evals/rrs.py to a notebook in welfare_defacc_prototyping scripts, where I needed to use it. Professionally, in the future the different projects might need different permissions (as a result of different funder/stakeholder requirements, etc), and it just presents far cleaner to be able to share each project's repo independently of the other projects'. 
+
 Q: Why not use google colab notebooks and their GPUs for inference? 
 
 A: (Epistemic status: somewhat firm) Will elaborate later.

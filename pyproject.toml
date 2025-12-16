@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "gql<4",
-    "inspect-ai==0.3.143",
+    "inspect-ai>=0.3.143",
     "inspect-evals>=0.3.102",
     "ipywidgets>=8.1.8",
     "nbformat>=5.10.4",

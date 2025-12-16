@@ -1,5 +1,5 @@
 # ResearchRepo
-A general repository to hold all my research, especially around LLMs.
+A general repository to hold functionality for my research.
 
 General advice:
 
